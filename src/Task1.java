@@ -13,6 +13,16 @@ public class Task1 {
         sc.close();
     }
 
+    /**
+     * this method find the minimum number of a given array
+     * it uses a loop approach
+     * time complexity: 0(n), where n is the number of numbers in array
+     * the loop iterate from 1 to n,
+     * resulting in linear time complexity
+     *
+     * @param seq the array of numbers which we find the minimum
+     * @return the minimum number from the array
+     */
     public static int returnMin(int[] seq) {
         int min = seq[0];
         for (int i = 1; i < seq.length; i++) {
